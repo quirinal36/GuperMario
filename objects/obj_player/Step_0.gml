@@ -185,4 +185,69 @@ switch(l7E56498D_0)
 		/// @DnDSaveInfo : "script" "check_ground"
 		script_execute(check_ground);
 		break;
+
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
+	/// @DnDHash : 5CEBF16A
+	/// @DnDParent : 7E56498D
+	/// @DnDArgument : "const" "ps.KNOCKBACK"
+	case ps.KNOCKBACK:
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 19DE4997
+		/// @DnDParent : 5CEBF16A
+		/// @DnDArgument : "script" "calc_move"
+		/// @DnDSaveInfo : "script" "calc_move"
+		script_execute(calc_move);
+	
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 1F640A26
+		/// @DnDParent : 5CEBF16A
+		/// @DnDArgument : "script" "check_ground"
+		/// @DnDSaveInfo : "script" "check_ground"
+		script_execute(check_ground);
+	
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 0B71D24A
+		/// @DnDParent : 5CEBF16A
+		/// @DnDArgument : "var" "v_spd"
+		/// @DnDArgument : "op" "2"
+		if(v_spd > 0)
+		{
+			/// @DnDAction : YoYo Games.Common.If_Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 4FA6E50C
+			/// @DnDParent : 0B71D24A
+			/// @DnDArgument : "var" "on_ground"
+			/// @DnDArgument : "value" "true"
+			if(on_ground == true)
+			{
+				/// @DnDAction : YoYo Games.Common.Execute_Script
+				/// @DnDVersion : 1.1
+				/// @DnDHash : 01E53F4F
+				/// @DnDParent : 4FA6E50C
+				/// @DnDArgument : "script" "check_state"
+				/// @DnDSaveInfo : "script" "check_state"
+				script_execute(check_state);
+			}
+		}
+	
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 53AA0D55
+		/// @DnDParent : 5CEBF16A
+		/// @DnDArgument : "script" "collision"
+		/// @DnDSaveInfo : "script" "collision"
+		script_execute(collision);
+	
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 110EB155
+		/// @DnDParent : 5CEBF16A
+		/// @DnDArgument : "script" "anim"
+		/// @DnDSaveInfo : "script" "anim"
+		script_execute(anim);
+		break;
 }
