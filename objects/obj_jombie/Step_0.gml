@@ -77,7 +77,7 @@ switch(l42E00915_0)
 		{
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
-			/// @DnDHash : 0A49ED68
+			/// @DnDHash : 10416B37
 			/// @DnDParent : 7350BFD8
 			/// @DnDArgument : "var" "image_speed"
 			image_speed = 0;
