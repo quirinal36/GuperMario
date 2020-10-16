@@ -17,8 +17,8 @@ function anim_enemy()
 		/// @DnDVersion : 1
 		/// @DnDHash : 21F38205
 		/// @DnDParent : 19BDE902
-		/// @DnDArgument : "const" "es.WALK"
-		case es.WALK:
+		/// @DnDArgument : "const" "zs.WALK"
+		case zs.WALK:
 			/// @DnDAction : YoYo Games.Common.Execute_Script
 			/// @DnDVersion : 1.1
 			/// @DnDHash : 70490795
@@ -34,6 +34,29 @@ function anim_enemy()
 			/// @DnDArgument : "value" "spr_walk"
 			/// @DnDArgument : "instvar" "10"
 			sprite_index = spr_walk;
+			break;
+	
+		/// @DnDAction : YoYo Games.Switch.Case
+		/// @DnDVersion : 1
+		/// @DnDHash : 4046CDAA
+		/// @DnDParent : 19BDE902
+		/// @DnDArgument : "const" "zs.DEAD"
+		case zs.DEAD:
+			/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+			/// @DnDVersion : 1
+			/// @DnDHash : 796AA249
+			/// @DnDParent : 4046CDAA
+			/// @DnDArgument : "value" "spr_dead"
+			/// @DnDArgument : "instvar" "10"
+			sprite_index = spr_dead;
+		
+			/// @DnDAction : YoYo Games.Common.Execute_Script
+			/// @DnDVersion : 1.1
+			/// @DnDHash : 1ED5036B
+			/// @DnDParent : 4046CDAA
+			/// @DnDArgument : "script" "check_facing"
+			/// @DnDSaveInfo : "script" "check_facing"
+			script_execute(check_facing);
 			break;
 	}
 }

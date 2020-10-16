@@ -20,6 +20,7 @@
     {"id":{"name":"calc_move","path":"scripts/calc_move/calc_move.yy",},"order":1,},
     {"id":{"name":"spr_enemy_walk","path":"sprites/spr_enemy_walk/spr_enemy_walk.yy",},"order":7,},
     {"id":{"name":"check_jump","path":"scripts/check_jump/check_jump.yy",},"order":4,},
+    {"id":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"order":5,},
     {"id":{"name":"anim","path":"scripts/anim/anim.yy",},"order":3,},
     {"id":{"name":"check_facing","path":"scripts/check_facing/check_facing.yy",},"order":6,},
     {"id":{"name":"check_ground","path":"scripts/check_ground/check_ground.yy",},"order":5,},
@@ -28,6 +29,7 @@
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
+    {"name":"macOS","path":"options/mac/options_mac.yy",},
   ],
   "isDnDProject": true,
   "isEcma": false,

@@ -34,7 +34,7 @@
     {"varType":0,"value":"spr_enemy_dead","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spr_dead","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"1.2","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"walk_spd","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"7","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"jump_spd","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"es.WALK","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"state","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"zs.WALK","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"state","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [
     {"propertyId":{"name":"spr_idle","path":"objects/obj_parent/obj_parent.yy",},"objectId":{"name":"obj_parent","path":"objects/obj_parent/obj_parent.yy",},"value":"spr_enemy_idle","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
