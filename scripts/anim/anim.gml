@@ -161,5 +161,20 @@ function anim()
 			/// @DnDSaveInfo : "script" "check_air_index"
 			script_execute(check_air_index);
 			break;
+	
+		/// @DnDAction : YoYo Games.Switch.Case
+		/// @DnDVersion : 1
+		/// @DnDHash : 3CC2607E
+		/// @DnDParent : 5993FFD4
+		/// @DnDArgument : "const" "ps.DEAD"
+		case ps.DEAD:
+			/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+			/// @DnDVersion : 1
+			/// @DnDHash : 1A98B2D5
+			/// @DnDParent : 3CC2607E
+			/// @DnDArgument : "value" "spr_dead"
+			/// @DnDArgument : "instvar" "10"
+			sprite_index = spr_dead;
+			break;
 	}
 }
